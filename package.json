@@ -1,0 +1,23 @@
+{
+  "name": "windreact",
+  "version": "1.0.0",
+  "description": "Tailwind components by ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thotenn/windreact.git"
+  },
+  "keywords": [
+    "tailwind",
+    "react"
+  ],
+  "author": "THB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thotenn/windreact/issues"
+  },
+  "homepage": "https://github.com/thotenn/windreact#readme"
+}
