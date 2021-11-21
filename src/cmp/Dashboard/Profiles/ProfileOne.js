@@ -1,14 +1,15 @@
 import React from 'react';
 
 const ProfileOne = () => {
+    const img1 = 'https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2710&amp;q=80';
     return (
         <main className="profile-page">
             <section className="relative block h-500-px">
                 <div
-                    className="absolute top-0 w-full h-full bg-center bg-cover"
-                    style={{
-                        backgroundImage: `url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2710&amp;q=80')`
-                    }}>
+                    className=""
+                    // style={{backgroundImage: `url(${img1})`}}
+                >
+                        <img className="top-0 w-full h-full bg-center bg-cover" src={img1} alt="232" />
                     <span id="blackOverlay" className="w-full h-full absolute opacity-50 bg-black"></span>
                 </div>
                 <div className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px" style={{ transform: 'translateZ(0px)' }}>
@@ -23,8 +24,8 @@ const ProfileOne = () => {
                         <div className="px-6">
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
-                                    <div className="relative">
-                                        <img alt="..." src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px" />
+                                    <div className="">
+                                        <img alt="..." src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" className="shadow-xl rounded-full h-auto align-middle border-none -m-16 -ml-20 lg:-ml-16 max-w-150-px" />
                                     </div>
                                 </div>
                                 <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
